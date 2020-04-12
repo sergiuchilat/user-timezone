@@ -1,0 +1,26 @@
+{
+    "name": "laravel-merax/user-timezone",
+    "description": "A simple solution for converting Laravel's default dates attributes to a user's set timezone",
+    "type": "timezone, date, dates",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergiu Popa",
+            "email": "popa.sergiu920@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^7.2",
+        "laravel/framework": "^7.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelMerax\\UserTimeZone\\": "src/"
+        }
+    }
+}
