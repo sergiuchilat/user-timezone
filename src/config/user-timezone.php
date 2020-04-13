@@ -5,6 +5,6 @@ return [
     /**
      * Set the default column where the user's timeZone is set
      */
-    'timezone_column' => 'time_zone'
+    'timezone_column' => 'timezone'
 
 ];

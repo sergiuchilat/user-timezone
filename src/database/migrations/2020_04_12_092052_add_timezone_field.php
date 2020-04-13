@@ -14,7 +14,7 @@ class AddTimezoneField extends Migration
     public function up(): void
     {
         Schema::table('users', static function(Blueprint $table) {
-            $table->string(config('user-timezone.timezone_column'));
+            $table->string(config('user-timezone.timezone_column'))->default('UTC');
         });
     }
 
