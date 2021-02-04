@@ -1,5 +1,5 @@
 {
-    "name": "laravel-merax/user-timezone",
+    "name": "magadanuhak/user-timezone",
     "description": "A simple solution for converting Laravel's default dates attributes to a user's set timezone",
     "type": "timezone, date, dates",
     "license": "MIT",
