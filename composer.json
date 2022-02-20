@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=7.4|>=8.0",
-        "illuminate/support": "^8.10",
-        "laravel/framework": "^8.0"
+        "illuminate/support": ">=7.0",
+        "laravel/framework": ">=7.0"
     }
     ,
     "require-dev": {
